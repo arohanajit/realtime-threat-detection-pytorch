@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Real Time Threat Detection</title>
+	<link rel="stylesheet" type="text/css"  href="{{url_for('static',filename='styles/app.css')}}">
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+</head>
+<body
+style="color: blue">
+<!-- COMMENT -->
+	<nav>
+		<ul>
+			<li>Real Time Threat Detection</li>
+			<li><a href="https://github.com/arohanajit/realtime-emotion-detection-pytorch">Github</a></li>
+		</ul>
+	</nav>
+	<div class="body">
+		
+		<img src="{{url_for('static',filename='images/pytorch-logo.png')}}" alt="pyy">
+		<h2>Start Camera</h2>
+		<form method="POST" enctype=multipart/form-data style="color: black">
+			<input type="submit" name="start">
+		</form>
+	</div>
+    <div>
+		<p style="margin-top:90px;
+		font-size: 1.2em;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		color: darkmagenta
+	">
+			@Made with Pytorch
+		</p>
+	</div>
+</body>
+</html>
